@@ -1,0 +1,96 @@
+<CustomSearchEngine keywords="تحميل واتساب كميل، واتساب عمر، واتساب النجم" language="ar" safesearch="true" autocompletions="true" enable_promotions="true" top_refinements="-1">
+  <Title>تحميل واتساب كميل الأسود، الأزرق، الأحمر</Title>
+  <Description>تحميل أحدث إصدارات واتساب كميل الأسود والأزرق والأحمر بأحدث المميزات.</Description>
+  <Context>
+    <!-- تصنيفات Facets مع BOOST -->
+    <Facet>
+      <FacetItem>
+        <Label name="واتساب_كميل" mode="BOOST" weight="1.0">
+          <Rewrite>واتساب كميل الأسود OR الأزرق OR الأحمر</Rewrite>
+        </Label>
+      </FacetItem>
+    </Facet>
+
+    <!-- تصفية وإقصاء باستخدام BackgroundLabels -->
+    <BackgroundLabels>
+      <Label name="_include_" mode="FILTER"/>
+      <Label name="_exclude_" mode="ELIMINATE"/>
+    </BackgroundLabels>
+
+    <!-- دمج بيانات PageMap محدثة -->
+    <PageMap>
+      <DataObject type="document">
+        <Attribute name="title">تحميل واتساب كميل الأسود</Attribute>
+        <Attribute name="author">صقر</Attribute>
+        <Attribute name="description">تحميل واتساب كميل الأسود بأحدث الإصدار مع مميزات فريدة.</Attribute>
+        <Attribute name="rating">4.5</Attribute>
+        <Attribute name="page_count">10</Attribute>
+      </DataObject>
+      <DataObject type="thumbnail">
+        <Attribute name="src" value="http://www.example.com/whatsapp_black.png" />
+        <Attribute name="width" value="100" />
+        <Attribute name="height" value="100" />
+      </DataObject>
+    </PageMap>
+
+    <!-- دمج JSON-LD مع تفاصيل Schema.org -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "تحميل واتساب كميل الأسود",
+        "author": "صقر",
+        "datePublished": "2025-05-12",
+        "description": "تحميل أحدث إصدار من واتساب كميل الأسود بأعلى مستوى من الأمان والخصائص المتقدمة.",
+        "image": "http://www.example.com/whatsapp_black.png",
+        "publisher": {
+          "@type": "Organization",
+          "name": "مدونة تكنولوجيا"
+        }
+      }
+    </script>
+
+    <!-- إضافة Event بيانات لزيادة التفاعل في محركات البحث -->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "Event",
+        "name": "مؤتمر تحميل واتساب كميل",
+        "startDate": "2025-06-15T09:00:00",
+        "endDate": "2025-06-15T12:00:00",
+        "location": {
+          "@type": "Place",
+          "name": "قاعة المؤتمرات الكبرى",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "شارع التكنولوجيا 123",
+            "addressLocality": "الرياض",
+            "addressRegion": "الرياض",
+            "postalCode": "12345",
+            "addressCountry": "SA"
+          }
+        },
+        "description": "مؤتمر حصري حول أحدث إصدارات واتساب كميل",
+        "image": "http://www.example.com/conference_image.png"
+      }
+    </script>
+  </Context>
+
+  <!-- تخصيص واجهة المستخدم LookAndFeel -->
+  <LookAndFeel element_layout="8" theme="1" enable_cse_thumbnail="true" custom_theme="false" font="0">
+    <Logo url="" destination="" height="30"/>
+    <Widget query_parameter_name="q"/>
+  </LookAndFeel>
+
+  <!-- الإعدادات المتقدمة -->
+  <cse_advance_settings enable_facet_search="true">
+    <web_search_options enable_history="true" show_structured_data="false">
+      <search_restrict_args lr="" cr="" gl="" filter="0" sort=""/>
+    </web_search_options>
+    <image_advanced_options default_to_image_search="false"/>
+  </cse_advance_settings>
+
+  <!-- إضافات وخيارات التحسين -->
+  <search_options link_target="" query_additon="تحميل واتساب كميل، واتساب عمر، واتساب النجم"/>
+  <custom_search_control_options no_results_string="لا توجد نتائج مطابقة، جرب كلمات مفتاحية أخرى."/>
+</CustomSearchEngine>
